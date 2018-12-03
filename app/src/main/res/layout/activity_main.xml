@@ -18,11 +18,11 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="185dp"
+        android:layout_height="115dp"
         android:text="Continue"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="431dp" />
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="364dp" />
 
     <TextView
         android:id="@+id/textView"
