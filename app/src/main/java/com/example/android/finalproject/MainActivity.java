@@ -13,15 +13,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button button = (Button) findViewById(R.id.button);
-        button.setOnClickListener(new View.onClickListener() {
-            @Override
-            public void onClick(View v) {
-                goToSecondActivity();
-            }
-        });
     }
-    private void goToSecondActivity() {
+    Button button = (Button) findViewById(R.id.button);
+        button.setOnClickListener(new View.onClickListener() {
+        @Override
+        public void onClick(View v) {
+            goTodrinks_and_sizes();
+        }
+    });
+    private void goTodrinks_and_sizes() {
 
         Intent intent = new Intent(this, drinks_and_sizes.class);
 

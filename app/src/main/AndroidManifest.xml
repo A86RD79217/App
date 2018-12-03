@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".drinks_and_sizes"></activity>
+        <activity android:name=".drinks_and_sizes" />
+        <activity android:name=".how_much_2_drink"></activity>
     </application>
 
 </manifest>
