@@ -18,7 +18,21 @@
         </activity>
         <activity android:name=".drinks_and_sizes" />
         <activity android:name=".Main_dashboard" />
-        <activity android:name=".Slightly_Buzzed"></activity>
+        <activity android:name=".Slightly_Buzzed" />
+        <activity android:name=".Buzzed" />
+        <activity android:name=".At_A_Party" />
+        <activity android:name=".College_at_party" />
+        <activity android:name=".Buzzed_beer" />
+        <activity android:name=".Buzzed_cocktail" />
+        <activity android:name=".Buzzed_spirit" />
+        <activity android:name=".Slightbuzz_beer" />
+        <activity android:name=".Slightbuzz_cocktail" />
+        <activity android:name=".Slightbuzz_spirit" />
+        <activity android:name=".Party_beer" />
+        <activity android:name=".Party_cocktail" />
+        <activity android:name=".Party_spirit" />
+        <activity android:name=".college_cocktail" />
+        <activity android:name=".college_spirit"></activity>
     </application>
 
 </manifest>

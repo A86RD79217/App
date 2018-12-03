@@ -10,31 +10,20 @@
         android:id="@+id/textView4"
         android:layout_width="376dp"
         android:layout_height="160dp"
-        android:text="Please specify the kind of drink that you ould like to have !"
+        android:text="Please specify the kind of drink that you would like to have !"
         android:textSize="30sp"
         tools:layout_editor_absoluteX="4dp"
         tools:layout_editor_absoluteY="4dp" />
 
     <Button
-        android:id="@+id/button9"
-        android:layout_width="183dp"
-        android:layout_height="93dp"
-        android:text="Beer"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="104dp"
-        tools:layout_editor_absoluteY="183dp" />
-
-    <Button
         android:id="@+id/button10"
         android:layout_width="183dp"
-        android:layout_height="83dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="8dp"
+        android:layout_height="93dp"
+        android:layout_marginBottom="12dp"
         android:text="Cocktail"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/button11"
-        app:layout_constraintTop_toBottomOf="@+id/button9"
-        tools:layout_editor_absoluteX="104dp" />
+        tools:layout_editor_absoluteX="101dp" />
 
     <Button
         android:id="@+id/button11"
@@ -42,6 +31,6 @@
         android:layout_height="93dp"
         android:text="Spirits"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="104dp"
-        tools:layout_editor_absoluteY="407dp" />
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="296dp" />
 </android.support.constraint.ConstraintLayout>
