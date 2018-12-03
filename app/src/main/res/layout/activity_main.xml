@@ -7,9 +7,11 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="378dp"
+        android:layout_height="105dp"
         android:text="Welcome to <insert app name here>!"
+        android:textSize="30sp"
+        android:typeface="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -26,10 +28,11 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="136dp"
-        android:text="Warning: we do not take any responsibility for your actions. Drink responsibly."
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="209dp" />
+        android:layout_width="389dp"
+        android:layout_height="101dp"
+        android:text="Warning: We do not take any responsibility for your actions. Drink responsibly."
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="252dp" />
 
 </android.support.constraint.ConstraintLayout>
