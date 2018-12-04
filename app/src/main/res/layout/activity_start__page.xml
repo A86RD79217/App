@@ -18,9 +18,8 @@
         android:id="@+id/textView5"
         android:layout_width="230dp"
         android:layout_height="108dp"
-        android:text="Welcome to <insert app name here>!"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="86dp" />
+        android:text="Welcome to insert app name here!"
+        tools:layout_editor_absoluteX="77dp" />
 
     <TextView
         android:id="@+id/textView6"
