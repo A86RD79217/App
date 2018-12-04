@@ -11,4 +11,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="drink this many cocktails: 1" />
+
+    <Button
+        android:id="@+id/SBcockhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Homepage"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="231dp" />
 </android.support.constraint.ConstraintLayout>
