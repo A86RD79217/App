@@ -9,9 +9,16 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:layout_height="115dp"
+        android:layout_height="39dp"
         android:text="Get an Uber through the app (if you have it already or at https://www.uber.com/"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="85dp" />
+        tools:layout_editor_absoluteY="0dp" />
+
+    <WebView
+        android:id="@+id/uber"
+        android:layout_width="382dp"
+        android:layout_height="473dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="39dp" />
 
 </android.support.constraint.ConstraintLayout>

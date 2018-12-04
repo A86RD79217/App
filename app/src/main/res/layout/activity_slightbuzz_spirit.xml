@@ -6,4 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".Slightbuzz_spirit">
 
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="drink this many spirits: 1" />
+
+    <Button
+        android:id="@+id/SBspirtsHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Homescreen"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="280dp" />
 </android.support.constraint.ConstraintLayout>

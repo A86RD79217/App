@@ -6,4 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".Slightbuzz_beer">
 
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="drink this much beer: 3" />
 </android.support.constraint.ConstraintLayout>
