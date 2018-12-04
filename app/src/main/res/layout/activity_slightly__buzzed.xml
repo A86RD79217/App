@@ -16,7 +16,7 @@
         tools:layout_editor_absoluteY="4dp" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/SBbeer"
         android:layout_width="183dp"
         android:layout_height="93dp"
         android:text="Beer"
@@ -25,19 +25,19 @@
         tools:layout_editor_absoluteY="183dp" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/SBcocktail"
         android:layout_width="183dp"
         android:layout_height="83dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="8dp"
         android:text="Cocktail"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/button11"
-        app:layout_constraintTop_toBottomOf="@+id/button9"
+        app:layout_constraintBottom_toTopOf="@+id/SBspirits"
+        app:layout_constraintTop_toBottomOf="@+id/SBbeer"
         tools:layout_editor_absoluteX="104dp" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/SBspirits"
         android:layout_width="183dp"
         android:layout_height="93dp"
         android:text="Spirits"

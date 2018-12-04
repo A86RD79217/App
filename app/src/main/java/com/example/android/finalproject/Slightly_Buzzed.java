@@ -17,31 +17,46 @@ public class Slightly_Buzzed extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_slightly__buzzed);
 
-        Button insertButtonName = (Button) findViewById(R.id.insertIDofButton);
-        startPage.setOnClickListener(new View.OnClickListener() {
+        Button beer = (Button) findViewById(R.id.SBbeer);
+        beer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT)
                         .show();
+                goToSlightBuzzBeer();
             }
         });
 
-        Button insertButtonName = (Button) findViewById(R.id.insertIDofButton);
-        startPage.setOnClickListener(new View.OnClickListener() {
+        Button cocktail = (Button) findViewById(R.id.SBcocktail);
+        cocktail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT)
                         .show();
+                goToSlightBuzzCocktail();
             }
         });
 
-        Button insertButtonName = (Button) findViewById(R.id.insertIDofButton);
-        startPage.setOnClickListener(new View.OnClickListener() {
+        Button spirits = (Button) findViewById(R.id.SBspirits);
+        spirits.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT)
                         .show();
+                goToSlightBuzzSpirits();
             }
         });
+    }
+    private void goToSlightBuzzBeer() {
+        Intent intent = new Intent(this, Slightbuzz_beer.class);
+        startActivity(intent);
+    }
+    private void goToSlightBuzzCocktail() {
+        Intent intent = new Intent(this, Slightbuzz_cocktail.class);
+        startActivity(intent);
+    }
+    private void goToSlightBuzzSpirits() {
+        Intent intent = new Intent(this, Slightbuzz_spirit.class);
+        startActivity(intent);
     }
 }
