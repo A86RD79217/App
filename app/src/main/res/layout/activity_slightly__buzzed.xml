@@ -10,7 +10,7 @@
         android:id="@+id/textView4"
         android:layout_width="376dp"
         android:layout_height="160dp"
-        android:text="Please specify the kind of drink that you ould like to have !"
+        android:text="Please specify the kind of drink that you would like to have !"
         android:textSize="30sp"
         tools:layout_editor_absoluteX="4dp"
         tools:layout_editor_absoluteY="4dp" />
