@@ -6,4 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".Party_cocktail">
 
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="drink this much"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <Button
+        android:id="@+id/partycocktail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="homepage"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="346dp" />
 </android.support.constraint.ConstraintLayout>
