@@ -32,7 +32,8 @@
         <activity android:name=".Party_cocktail" />
         <activity android:name=".Party_spirit" />
         <activity android:name=".college_cocktail" />
-        <activity android:name=".college_spirit"></activity>
+        <activity android:name=".college_spirit" />
+        <activity android:name=".Start_Page"></activity>
     </application>
 
 </manifest>
