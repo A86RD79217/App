@@ -6,4 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".Home">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="115dp"
+        android:text="Get an Uber through the app (if you have it already or at https://www.uber.com/"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="85dp" />
+
 </android.support.constraint.ConstraintLayout>
