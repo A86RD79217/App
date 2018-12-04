@@ -11,4 +11,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="drink this much beer: 3" />
+
+    <Button
+        android:id="@+id/SBbeerhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Homepage"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="230dp" />
 </android.support.constraint.ConstraintLayout>
