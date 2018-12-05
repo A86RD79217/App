@@ -16,6 +16,7 @@ public class drinks_and_sizes extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drinks_and_sizes);
+
         Button ageConfirm = (Button) findViewById(R.id.ageconfirm);
         ageConfirm.setOnClickListener(new View.OnClickListener() {
             @Override
