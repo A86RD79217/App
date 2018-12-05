@@ -9,15 +9,18 @@
     <TextView
         android:id="@+id/textView4"
         android:layout_width="376dp"
-        android:layout_height="160dp"
+        android:layout_height="112dp"
         android:layout_marginStart="4dp"
         android:layout_marginLeft="4dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="4dp"
         android:layout_marginRight="4dp"
+        android:layout_marginBottom="17dp"
         android:text="Please specify the kind of drink that you would like to have !"
         android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/partycocktail"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -25,25 +28,46 @@
         android:id="@+id/partycocktail"
         android:layout_width="183dp"
         android:layout_height="93dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="24dp"
         android:text="Cocktail"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="52dp" />
+        app:layout_constraintBottom_toTopOf="@+id/partybeer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <Button
         android:id="@+id/BZspirits"
         android:layout_width="183dp"
         android:layout_height="93dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="24dp"
         android:text="Spirits"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="342dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/partybeer" />
 
     <Button
         android:id="@+id/partybeer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="180dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="24dp"
         android:text="Beer"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="209dp" />
+        app:layout_constraintBottom_toTopOf="@+id/BZspirits"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/partycocktail" />
 </android.support.constraint.ConstraintLayout>
