@@ -18,8 +18,8 @@ public class Slightbuzz_spirit extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_slightbuzz_spirit);
 
-        Button home = (Button) findViewById(R.id.SBspirtsHome);
-        home.setOnClickListener(new View.OnClickListener() {
+        Button home3 = (Button) findViewById(R.id.SBspirtsHome);
+        home3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT)

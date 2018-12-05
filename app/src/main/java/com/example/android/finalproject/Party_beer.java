@@ -17,5 +17,19 @@ public class Party_beer extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_party_beer);
+
+        Button insertButtonName1 = (Button) findViewById(R.id.partybeer);
+        insertButtonName1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT)
+                        .show();
+                goToInsertNameOfNextClass();
+            }
+        });
+    }
+    private void goToInsertNameOfNextClass() {
+        Intent intent = new Intent(this, Main_dashboard.class);
+        startActivity(intent);
     }
 }

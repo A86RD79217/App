@@ -17,8 +17,8 @@ public class Slightbuzz_cocktail extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_slightbuzz_cocktail);
-        Button home = (Button) findViewById(R.id.SBcockhome);
-        home.setOnClickListener(new View.OnClickListener() {
+        Button home2 = (Button) findViewById(R.id.SBcockhome);
+        home2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT)
