@@ -25,9 +25,22 @@ public class drinks_and_sizes extends AppCompatActivity {
                 goToMainDashboard();
             }
         });
+
+        Button ageDeny = (Button) findViewById(R.id.agedeny);
+        ageDeny.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT).show();
+                exitApp();
+            }
+        });
     }
     private void goToMainDashboard() {
         Intent intent = new Intent(this, Main_dashboard.class);
         startActivity(intent);
+    }
+    private void exitApp() {
+        finishAffinity(); //technically not correct but it sorta works so ill just leave this for now
+        System.exit(0);
     }
 }

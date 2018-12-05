@@ -22,15 +22,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/partycocktail"
         android:layout_width="183dp"
         android:layout_height="93dp"
         android:text="Cocktail"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="101dp" />
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="52dp" />
 
     <Button
-        android:id="@+id/SBspirits"
+        android:id="@+id/BZspirits"
         android:layout_width="183dp"
         android:layout_height="93dp"
         android:text="Spirits"
@@ -39,10 +40,10 @@
         tools:layout_editor_absoluteY="342dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/partybeer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Beer"
         tools:layout_editor_absoluteX="147dp"
         tools:layout_editor_absoluteY="209dp" />
 </android.support.constraint.ConstraintLayout>

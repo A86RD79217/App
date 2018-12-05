@@ -13,14 +13,14 @@
         android:layout_marginBottom="6dp"
         android:text="Please specify the kind of drink that you would like to have !"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/SBbeer"
+        app:layout_constraintBottom_toTopOf="@+id/BZbeer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/SBbeer"
+        android:id="@+id/BZbeer"
         android:layout_width="183dp"
         android:layout_height="93dp"
         android:layout_marginStart="104dp"
@@ -51,10 +51,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/SBbeer" />
+        app:layout_constraintTop_toBottomOf="@+id/BZbeer" />
 
     <Button
-        android:id="@+id/SBspirits"
+        android:id="@+id/BZspirits"
         android:layout_width="183dp"
         android:layout_height="93dp"
         android:layout_marginStart="104dp"

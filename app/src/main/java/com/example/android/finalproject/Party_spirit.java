@@ -18,7 +18,7 @@ public class Party_spirit extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_party_spirit);
-        Button insertButtonName = (Button) findViewById(R.id.partyspirit);
+        Button insertButtonName = (Button) findViewById(R.id.pspirit);
         insertButtonName.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
