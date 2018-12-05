@@ -28,7 +28,7 @@ public class Main_dashboard extends AppCompatActivity {
         });
 
         Button buzzed = (Button) findViewById(R.id.buzzed);
-        slightlyBuzzed.setOnClickListener(new View.OnClickListener() {
+        buzzed.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT).show();
@@ -37,7 +37,7 @@ public class Main_dashboard extends AppCompatActivity {
         });
 
         Button party = (Button) findViewById(R.id.party);
-        slightlyBuzzed.setOnClickListener(new View.OnClickListener() {
+        party.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT).show();
@@ -46,7 +46,7 @@ public class Main_dashboard extends AppCompatActivity {
         });
 
         Button collegeparty = (Button) findViewById(R.id.college);
-        slightlyBuzzed.setOnClickListener(new View.OnClickListener() {
+        collegeparty.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT).show();
@@ -55,7 +55,7 @@ public class Main_dashboard extends AppCompatActivity {
         });
 
         Button gohome = (Button) findViewById(R.id.gohome);
-        slightlyBuzzed.setOnClickListener(new View.OnClickListener() {
+        gohome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT).show();

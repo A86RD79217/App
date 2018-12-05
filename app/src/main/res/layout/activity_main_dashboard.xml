@@ -8,27 +8,26 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="377dp"
-        android:layout_height="138dp"
-        android:text="TextView"
+        android:layout_width="342dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:text="How much would you like to drink ?"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="5dp"
-        tools:text="How much would you like to drink ?" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/slightlybuzzed"
         android:layout_width="135dp"
         android:layout_height="91dp"
-        android:layout_marginStart="17dp"
-        android:layout_marginLeft="17dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="80dp"
-        android:layout_marginRight="80dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="13dp"
         android:text="Slightly buzzed"
-        app:layout_constraintBottom_toTopOf="@+id/party"
-        app:layout_constraintEnd_toStartOf="@+id/buzzed"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -36,12 +35,15 @@
         android:id="@+id/buzzed"
         android:layout_width="135dp"
         android:layout_height="91dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="37dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginBottom="46dp"
         android:text="Buzzed"
         app:layout_constraintBottom_toTopOf="@+id/college"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/slightlybuzzed"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -49,31 +51,41 @@
         android:id="@+id/party"
         android:layout_width="135dp"
         android:layout_height="91dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:layout_marginBottom="42dp"
         android:text="At a party "
-        app:layout_constraintTop_toBottomOf="@+id/slightlybuzzed"
-        tools:layout_editor_absoluteX="16dp" />
+        app:layout_constraintBottom_toTopOf="@+id/gohome"
+        app:layout_constraintEnd_toStartOf="@+id/college"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/slightlybuzzed" />
 
     <Button
         android:id="@+id/college"
         android:layout_width="135dp"
         android:layout_height="91dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="18dp"
-        android:layout_marginRight="18dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginBottom="42dp"
         android:text="College students on a fiday"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/party"
-        app:layout_constraintTop_toBottomOf="@+id/buzzed" />
+        app:layout_constraintBottom_toTopOf="@+id/gohome"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/gohome"
         android:layout_width="351dp"
         android:layout_height="88dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="6dp"
         android:text="I WANT TO GO HOME"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="417dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>
