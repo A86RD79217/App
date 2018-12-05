@@ -10,19 +10,23 @@
         android:id="@+id/textView4"
         android:layout_width="376dp"
         android:layout_height="160dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
         android:text="Please specify the kind of drink that you would like to have !"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="4dp"
-        tools:layout_editor_absoluteY="4dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button10"
         android:layout_width="183dp"
         android:layout_height="93dp"
-        android:layout_marginBottom="12dp"
         android:text="Cocktail"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/SBspirits"
         tools:layout_editor_absoluteX="101dp" />
 
     <Button
@@ -32,5 +36,13 @@
         android:text="Spirits"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="296dp" />
+        tools:layout_editor_absoluteY="342dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="209dp" />
 </android.support.constraint.ConstraintLayout>
