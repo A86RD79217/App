@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Start_Page">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -33,7 +33,6 @@
         <activity android:name=".Party_spirit" />
         <activity android:name=".college_cocktail" />
         <activity android:name=".college_spirit" />
-        <activity android:name=".Start_Page" />
         <activity android:name=".Home"></activity>
     </application>
 
