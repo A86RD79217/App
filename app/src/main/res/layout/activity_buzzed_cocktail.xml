@@ -6,4 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".Buzzed_cocktail">
 
+    <Button
+        android:id="@+id/buzzedcocktail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="331dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:layout_marginBottom="132dp"
+        android:text="Homepage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="383dp"
+        android:layout_height="151dp"
+        android:layout_marginBottom="180dp"
+        android:text="You should drink X number of cocktails"
+        app:layout_constraintBottom_toTopOf="@+id/buzzedcocktail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
