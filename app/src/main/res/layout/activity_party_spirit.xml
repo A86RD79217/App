@@ -8,22 +8,25 @@
 
     <TextView
         android:id="@+id/test24"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="drink this much"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:layout_width="383dp"
+        android:layout_height="146dp"
+        android:layout_marginBottom="195dp"
+        android:text="You should drink X spirits"
+        app:layout_constraintBottom_toTopOf="@+id/partybeerhome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/pspirit"
+        android:id="@+id/partybeerhome"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:layout_marginStart="83dp"
-        android:layout_marginLeft="83dp"
-        android:layout_marginTop="229dp"
-        android:layout_marginEnd="201dp"
-        android:layout_marginRight="201dp"
-        android:layout_marginBottom="199dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginLeft="142dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginRight="142dp"
+        android:layout_marginBottom="122dp"
         android:text="homepage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -11,15 +11,15 @@ import android.widget.Button;
 //import android.view.MenuItem;
 //import android.widget.TextView;
 
-public class college_cocktail extends AppCompatActivity {
+public class college_beer extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_college_cocktail);
+        setContentView(R.layout.activity_college_beer);
 
-        Button ccocktail = (Button) findViewById(R.id.collegecocktailhome);
-        ccocktail.setOnClickListener(new View.OnClickListener() {
+        Button cbeer = (Button) findViewById(R.id.collegebeerhome);
+        cbeer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT)

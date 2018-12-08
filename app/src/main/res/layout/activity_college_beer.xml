@@ -4,30 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".college_cocktail">
+    tools:context=".college_beer">
 
     <Button
-        android:id="@+id/collegecocktailhome"
+        android:id="@+id/collegebeerhome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="147dp"
         android:layout_marginLeft="147dp"
         android:layout_marginEnd="147dp"
         android:layout_marginRight="147dp"
-        android:layout_marginBottom="149dp"
+        android:layout_marginBottom="150dp"
         android:text="Homepage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/textView15"
         android:layout_width="383dp"
-        android:layout_height="181dp"
-        android:layout_marginBottom="133dp"
-        android:text="You should drink X cocktails"
-        app:layout_constraintBottom_toTopOf="@+id/collegecocktailhome"
+        android:layout_height="132dp"
+        android:layout_marginBottom="180dp"
+        android:text="You should drink X beers"
+        app:layout_constraintBottom_toTopOf="@+id/collegebeerhome"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

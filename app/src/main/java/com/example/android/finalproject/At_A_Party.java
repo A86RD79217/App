@@ -20,7 +20,7 @@ public class At_A_Party extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_at__a__party);
 
-        Button insertButtonName1 = (Button) findViewById(R.id.partycocktail);
+        Button insertButtonName1 = (Button) findViewById(R.id.partycocktailhome);
         insertButtonName1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -30,7 +30,7 @@ public class At_A_Party extends AppCompatActivity {
             }
         });
 
-        Button insertButtonName2 = (Button) findViewById(R.id.partybeer);
+        Button insertButtonName2 = (Button) findViewById(R.id.partybeerhome);
         insertButtonName2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -40,7 +40,7 @@ public class At_A_Party extends AppCompatActivity {
             }
         });
 
-        Button insertButtonName3 = (Button) findViewById(R.id.BZspirits);
+        Button insertButtonName3 = (Button) findViewById(R.id.collegespirits);
         insertButtonName3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

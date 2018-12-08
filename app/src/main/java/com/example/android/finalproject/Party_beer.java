@@ -18,7 +18,7 @@ public class Party_beer extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_party_beer);
 
-        Button insertButtonName1 = (Button) findViewById(R.id.partybeer);
+        Button insertButtonName1 = (Button) findViewById(R.id.partybeerhome);
         insertButtonName1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

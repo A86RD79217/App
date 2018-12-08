@@ -7,16 +7,15 @@
     tools:context=".Party_beer">
 
     <Button
-        android:id="@+id/partybeer"
+        android:id="@+id/partybeerhome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="172dp"
-        android:layout_marginLeft="172dp"
-        android:layout_marginTop="127dp"
-        android:layout_marginEnd="124dp"
-        android:layout_marginRight="124dp"
-        android:layout_marginBottom="120dp"
-        android:text="Button"
+        android:layout_marginStart="147dp"
+        android:layout_marginLeft="147dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginRight="147dp"
+        android:layout_marginBottom="158dp"
+        android:text="Homepage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,9 +23,12 @@
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="drink this much"
-        tools:layout_editor_absoluteX="182dp"
-        tools:layout_editor_absoluteY="197dp" />
+        android:layout_width="383dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="155dp"
+        android:text="You should drink X beers"
+        app:layout_constraintBottom_toTopOf="@+id/partybeerhome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>

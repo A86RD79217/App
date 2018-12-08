@@ -18,7 +18,7 @@ public class Buzzed extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_buzzed);
 
-        Button BZbeer = (Button) findViewById(R.id.BZbeer);
+        Button BZbeer = (Button) findViewById(R.id.collegebeer);
         BZbeer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -38,7 +38,7 @@ public class Buzzed extends AppCompatActivity {
             }
         });
 
-        Button BZspirits = (Button) findViewById(R.id.BZspirits);
+        Button BZspirits = (Button) findViewById(R.id.collegespirits);
         BZspirits.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

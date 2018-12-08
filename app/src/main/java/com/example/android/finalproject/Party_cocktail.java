@@ -19,7 +19,7 @@ public class Party_cocktail extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_party_cocktail);
 
-        Button insertButtonName2 = (Button) findViewById(R.id.partycocktail);
+        Button insertButtonName2 = (Button) findViewById(R.id.partycocktailhome);
         insertButtonName2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

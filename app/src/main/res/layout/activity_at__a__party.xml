@@ -18,14 +18,14 @@
         android:layout_marginBottom="17dp"
         android:text="Please specify the kind of drink that you would like to have!"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/partycocktail"
+        app:layout_constraintBottom_toTopOf="@+id/partycocktailhome"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/partycocktail"
+        android:id="@+id/partycocktailhome"
         android:layout_width="183dp"
         android:layout_height="93dp"
         android:layout_marginStart="100dp"
@@ -35,13 +35,13 @@
         android:layout_marginBottom="24dp"
         android:text="Cocktail"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/partybeer"
+        app:layout_constraintBottom_toTopOf="@+id/partybeerhome"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <Button
-        android:id="@+id/BZspirits"
+        android:id="@+id/collegespirits"
         android:layout_width="183dp"
         android:layout_height="93dp"
         android:layout_marginStart="100dp"
@@ -54,10 +54,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/partybeer" />
+        app:layout_constraintTop_toBottomOf="@+id/partybeerhome" />
 
     <Button
-        android:id="@+id/partybeer"
+        android:id="@+id/partybeerhome"
         android:layout_width="180dp"
         android:layout_height="101dp"
         android:layout_marginStart="100dp"
@@ -67,8 +67,8 @@
         android:layout_marginBottom="24dp"
         android:text="Beer"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/BZspirits"
+        app:layout_constraintBottom_toTopOf="@+id/collegespirits"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/partycocktail" />
+        app:layout_constraintTop_toBottomOf="@+id/partycocktailhome" />
 </android.support.constraint.ConstraintLayout>

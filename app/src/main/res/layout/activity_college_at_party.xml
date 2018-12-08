@@ -17,13 +17,13 @@
         android:layout_marginBottom="8dp"
         android:text="Please specify the kind of drink that you would like to have !"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/BZbeer"
+        app:layout_constraintBottom_toTopOf="@+id/collegebeer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/BZbeer"
+        android:id="@+id/collegebeer"
         android:layout_width="183dp"
         android:layout_height="93dp"
         android:layout_marginStart="100dp"
@@ -33,14 +33,14 @@
         android:layout_marginBottom="20dp"
         android:text="Beer"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/button10"
+        app:layout_constraintBottom_toTopOf="@+id/collegecocktail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/collegecocktail"
         android:layout_width="183dp"
         android:layout_height="93dp"
         android:layout_marginStart="100dp"
@@ -50,14 +50,14 @@
         android:layout_marginBottom="16dp"
         android:text="Cocktail"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/BZspirits"
+        app:layout_constraintBottom_toTopOf="@+id/collegespirits"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/BZbeer" />
+        app:layout_constraintTop_toBottomOf="@+id/collegebeer" />
 
     <Button
-        android:id="@+id/BZspirits"
+        android:id="@+id/collegespirits"
         android:layout_width="183dp"
         android:layout_height="93dp"
         android:layout_marginStart="100dp"
@@ -71,5 +71,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button10" />
+        app:layout_constraintTop_toBottomOf="@+id/collegecocktail" />
 </android.support.constraint.ConstraintLayout>
