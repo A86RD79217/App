@@ -10,7 +10,15 @@
         android:id="@+id/textView"
         android:layout_width="375dp"
         android:layout_height="195dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="312dp"
         android:text="Get an Uber, find someone not drunk to get your home, or just bite the bullet and walk home. Either way you are not staying."
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="4dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
