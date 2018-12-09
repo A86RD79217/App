@@ -11,7 +11,7 @@
         android:layout_width="384dp"
         android:layout_height="113dp"
         android:layout_marginBottom="32dp"
-        android:text="Please specify the kind of drink that you would like to have !"
+        android:text="Please specify the kind of drink that you would like to have!"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/collegebeer"
         app:layout_constraintEnd_toEndOf="parent"
