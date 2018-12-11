@@ -21,8 +21,6 @@ public class Slightbuzz_cocktail extends AppCompatActivity {
         home2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT)
-                        .show();
                 goToMainDashboard();
             }
         });

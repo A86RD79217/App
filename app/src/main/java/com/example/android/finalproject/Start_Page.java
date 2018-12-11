@@ -21,7 +21,6 @@ public class Start_Page extends AppCompatActivity {
         startPage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT).show();
                 goToDrinksAndSizes();
             }
         });

@@ -24,8 +24,6 @@ public class At_A_Party extends AppCompatActivity {
         insertButtonName1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT)
-                        .show();
                 goToInsertNameOfNextClass1();
             }
         });
@@ -34,8 +32,6 @@ public class At_A_Party extends AppCompatActivity {
         insertButtonName2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT)
-                        .show();
                 goToInsertNameOfNextClass2();
             }
         });
@@ -44,8 +40,6 @@ public class At_A_Party extends AppCompatActivity {
         insertButtonName3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT)
-                        .show();
                 goToInsertNameOfNextClass3();
             }
         });

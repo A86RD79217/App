@@ -22,7 +22,6 @@ public class Main_dashboard extends AppCompatActivity {
         slightlyBuzzed.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT).show();
                 goToSlightlyBuzzed();
             }
         });
@@ -31,7 +30,6 @@ public class Main_dashboard extends AppCompatActivity {
         buzzed.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT).show();
                 goToBuzzed();
             }
         });
@@ -40,7 +38,6 @@ public class Main_dashboard extends AppCompatActivity {
         party.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT).show();
                 goToParty();
             }
         });
@@ -49,7 +46,6 @@ public class Main_dashboard extends AppCompatActivity {
         collegeparty.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT).show();
                 goToCollege();
             }
         });
@@ -58,7 +54,6 @@ public class Main_dashboard extends AppCompatActivity {
         gohome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT).show();
                 goToHome();
             }
         });

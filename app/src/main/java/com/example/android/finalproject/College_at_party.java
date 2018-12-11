@@ -22,8 +22,6 @@ public class College_at_party extends AppCompatActivity {
         cbeer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT)
-                        .show();
                 gotoCbeer();
             }
         });
@@ -32,8 +30,6 @@ public class College_at_party extends AppCompatActivity {
         ccocktail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT)
-                        .show();
                 gotoCcocktail();
             }
         });
@@ -42,8 +38,6 @@ public class College_at_party extends AppCompatActivity {
         cspirits.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT)
-                        .show();
                 gotoCspirits();
             }
         });

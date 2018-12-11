@@ -22,8 +22,6 @@ public class Buzzed_cocktail extends AppCompatActivity {
         BZcocktail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT)
-                        .show();
                 goToMainDashboard();
             }
         });

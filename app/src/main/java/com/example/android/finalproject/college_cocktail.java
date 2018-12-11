@@ -22,8 +22,6 @@ public class college_cocktail extends AppCompatActivity {
         ccocktail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT)
-                        .show();
                 goToMainDashboard();
             }
         });

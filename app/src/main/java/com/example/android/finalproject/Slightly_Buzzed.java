@@ -21,8 +21,6 @@ public class Slightly_Buzzed extends AppCompatActivity {
         beer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT)
-                        .show();
                 goToSlightBuzzBeer();
             }
         });
@@ -31,8 +29,6 @@ public class Slightly_Buzzed extends AppCompatActivity {
         cocktail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT)
-                        .show();
                 goToSlightBuzzCocktail();
             }
         });
@@ -41,8 +37,6 @@ public class Slightly_Buzzed extends AppCompatActivity {
         spirits.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "It just works!", Toast.LENGTH_SHORT)
-                        .show();
                 goToSlightBuzzSpirits();
             }
         });
