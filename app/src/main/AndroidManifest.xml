@@ -41,7 +41,8 @@
         <activity android:name=".Home" />
         <activity android:name=".college_beer" />
         <activity android:name=".BAC" />
-        <activity android:name=".PANIC"></activity>
+        <activity android:name=".PANIC" />
+        <activity android:name=".Disclaimer"></activity>
     </application>
 
 </manifest>

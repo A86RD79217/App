@@ -34,7 +34,7 @@ public class drinks_and_sizes extends AppCompatActivity {
         });
     }
     private void goToMainDashboard() {
-        Intent intent = new Intent(this, Main_dashboard.class);
+        Intent intent = new Intent(this, Disclaimer.class);
         startActivity(intent);
     }
     private void exitApp() {
