@@ -46,6 +46,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginEnd="30dp"
         android:layout_marginRight="30dp"
+        android:gravity="center"
         android:text="Are you 21 or older?"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/ageconfirm"

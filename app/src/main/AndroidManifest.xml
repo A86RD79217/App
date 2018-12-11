@@ -2,7 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.android.finalproject">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
+        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -34,7 +37,8 @@
         <activity android:name=".college_cocktail" />
         <activity android:name=".college_spirit" />
         <activity android:name=".Home" />
-        <activity android:name=".college_beer"></activity>
+        <activity android:name=".college_beer" />
+        <activity android:name=".BAC"></activity>
     </application>
 
 </manifest>

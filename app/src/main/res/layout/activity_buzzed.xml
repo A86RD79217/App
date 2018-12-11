@@ -8,14 +8,14 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="384dp"
+        android:layout_width="349dp"
         android:layout_height="158dp"
         android:layout_marginBottom="20dp"
         android:text="Please specify the kind of drink that you would like to have!"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/collegebeer"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
