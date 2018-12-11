@@ -57,6 +57,14 @@ public class Main_dashboard extends AppCompatActivity {
                 goToHome();
             }
         });
+
+        Button goTo911 = (Button) findViewById(R.id.PANICHELP);
+        goTo911.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getHelp();
+            }
+        });
     }
     private void goToSlightlyBuzzed() {
         Intent intent = new Intent(this, Slightly_Buzzed.class);
@@ -76,6 +84,10 @@ public class Main_dashboard extends AppCompatActivity {
     }
     private void goToHome() {
         Intent intent = new Intent(this, Home.class);
+        startActivity(intent);
+    }
+    private void getHelp() {
+        Intent intent = new Intent(this, PANIC.class);
         startActivity(intent);
     }
 }
