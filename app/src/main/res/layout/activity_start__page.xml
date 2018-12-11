@@ -33,7 +33,7 @@
         android:layout_marginEnd="77dp"
         android:layout_marginRight="77dp"
         android:gravity="center"
-        android:text="Welcome to Know Your Limit!"
+        android:text="Welcome to Trammel!"
         android:textSize="50sp"
         app:layout_constraintBottom_toTopOf="@+id/textView6"
         app:layout_constraintEnd_toEndOf="parent"
