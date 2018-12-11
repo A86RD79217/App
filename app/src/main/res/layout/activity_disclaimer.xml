@@ -17,7 +17,7 @@
         android:layout_marginRight="36dp"
         android:layout_marginBottom="30dp"
         android:gravity="center"
-        android:text="Notice:1 serving of “spirits” means 1 drink of vodka whisky or any spirit, either neat or with 1 (no more than one) base such as coke diet coke red bull etc. To maintain the level of drunkenness drink one less than the previous amount of drinks in the subsequent hour."
+        android:text="Notice: 1 serving of “spirits” means 1 drink of vodka whisky or any spirit, either neat or with 1 (no more than one) base such as coke diet coke red bull etc. To maintain the level of drunkenness drink one less than the previous amount of drinks in the subsequent hour."
         android:textSize="17sp"
         app:layout_constraintBottom_toTopOf="@+id/textView23"
         app:layout_constraintEnd_toEndOf="parent"
