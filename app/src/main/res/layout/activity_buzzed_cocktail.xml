@@ -24,12 +24,15 @@
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="383dp"
+        android:layout_width="365dp"
         android:layout_height="151dp"
         android:layout_marginBottom="180dp"
-        android:text="You should drink X number of cocktails"
+        android:textSize="21sp"
+        android:gravity="center"
+        android:text="You should drink 2-3 cocktails within an hour in order to feel buzzed."
         app:layout_constraintBottom_toTopOf="@+id/buzzedcocktail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 </android.support.constraint.ConstraintLayout>

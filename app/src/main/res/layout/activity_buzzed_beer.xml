@@ -24,10 +24,11 @@
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="384dp"
+        android:layout_width="368dp"
         android:layout_height="182dp"
         android:gravity="center"
-        android:text="You should drink X number of beers"
+        android:textSize="21sp"
+        android:text="You should drink 2 beers within an hour in order to feel buzzed."
         app:layout_constraintBottom_toTopOf="@+id/buzzedbeer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
