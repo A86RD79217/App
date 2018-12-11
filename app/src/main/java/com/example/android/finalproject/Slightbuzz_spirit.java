@@ -17,17 +17,5 @@ public class Slightbuzz_spirit extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_slightbuzz_spirit);
-
-        Button home3 = (Button) findViewById(R.id.SBspirtsHome);
-        home3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                goToMainDashboard();
-            }
-        });
-    }
-    private void goToMainDashboard() {
-        Intent intent = new Intent(this, Main_dashboard.class);
-        startActivity(intent);
     }
 }

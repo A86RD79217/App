@@ -32,14 +32,6 @@ public class Slightly_Buzzed extends AppCompatActivity {
                 goToSlightBuzzCocktail();
             }
         });
-
-        Button spirits = (Button) findViewById(R.id.collegespirits);
-        spirits.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                goToSlightBuzzSpirits();
-            }
-        });
     }
     private void goToSlightBuzzBeer() {
         Intent intent = new Intent(this, Slightbuzz_beer.class);
@@ -47,10 +39,6 @@ public class Slightly_Buzzed extends AppCompatActivity {
     }
     private void goToSlightBuzzCocktail() {
         Intent intent = new Intent(this, Slightbuzz_cocktail.class);
-        startActivity(intent);
-    }
-    private void goToSlightBuzzSpirits() {
-        Intent intent = new Intent(this, Slightbuzz_spirit.class);
         startActivity(intent);
     }
 }
