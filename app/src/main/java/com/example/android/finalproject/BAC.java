@@ -31,7 +31,7 @@ public class BAC extends AppCompatActivity {
 
         webView = (WebView) findViewById(R.id.BAC);
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl("http://www.alcoholhelpcenter.net/program/bac_standalone.aspx");
+        webView.loadUrl("http://getdrunknotfat.com/drinking-calculator/");
     }
 }
 
