@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="376dp"
+        android:layout_width="313dp"
         android:layout_height="112dp"
         android:layout_marginStart="4dp"
         android:layout_marginLeft="4dp"
@@ -20,7 +20,6 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/partycocktailhome"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

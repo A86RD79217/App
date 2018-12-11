@@ -84,7 +84,7 @@
 
     <Button
         android:id="@+id/gohome"
-        android:layout_width="351dp"
+        android:layout_width="330dp"
         android:layout_height="88dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
@@ -96,7 +96,6 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/slightlybuzzed" />
 </android.support.constraint.ConstraintLayout>
