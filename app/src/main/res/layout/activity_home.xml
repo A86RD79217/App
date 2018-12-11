@@ -18,7 +18,6 @@
         android:text="Determine my BAC"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
@@ -35,7 +34,6 @@
         android:text="Getting home safely is your most important priority, so if you are planning to drive home take this blood alcohol test (BAC) test first."
         app:layout_constraintBottom_toTopOf="@+id/BAC"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -50,7 +48,6 @@
         android:layout_marginRight="16dp"
         android:text="If your BAC exceeds 0.05 do not try to drive home!"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/BAC" />
 
